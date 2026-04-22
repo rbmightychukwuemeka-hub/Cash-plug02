@@ -8,7 +8,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 # === CONFIG ===
 BOT_TOKEN = "8204822480:AAGSeX2L5jBW0VpbEJv_TWtQwCG5ZGwS_dM"
 ADMIN_IDS = [8204822480, 8770974330, 6031406805]
-WEBAPP_URL = "https://cashplug02.netlify.app
+WEBAPP_URL = "https://cashplug02.netlify.app"
 
 # === ADMIN CONTROLLED SETTINGS ===
 settings = {
