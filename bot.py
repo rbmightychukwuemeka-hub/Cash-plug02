@@ -128,7 +128,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     keyboard = [[InlineKeyboardButton(
         "🚀 Open Cash Plug",
-        web_app=WebAppInfo(url=f"{WEBAPP_URL}/home.html?id={user.id}&name={user.first_name}")
+        web_app=WebAppInfo(url=f'{WEBAPP_URL}/?id={user.id}&name={user.first_name}')
     )]]
 
     if is_admin(user.id):
